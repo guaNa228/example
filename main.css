@@ -40,6 +40,7 @@ header .logo {
 }
 
 header .logo img {
+    pointer-events: none;
     width: 50px;
 }
 
@@ -170,6 +171,11 @@ main .card span.filler {
     font-size: 40px;
 }
 
+main .card img {
+    pointer-events: none;
+    user-select: none;
+}
+
 footer {
     box-sizing: border-box;
     width: 100%;
@@ -191,6 +197,7 @@ footer nav a {
     height: 50px;
     margin: 0 20px;
     transition: .3s;
+    user-select: none;
 }
 
 footer nav a:hover {
@@ -200,4 +207,5 @@ footer nav a:hover {
 footer nav a img {
     width: 50px;
     height: 50px;
+    pointer-events: none;
 }
